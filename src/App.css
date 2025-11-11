@@ -1,0 +1,134 @@
+body {
+  background-color: #f5f7fa;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.add-task input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.add-task button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #357abd;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.column {
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.task-card {
+  background: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.task-card:hover {
+  background: #d6eaf8;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 73, 94, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
