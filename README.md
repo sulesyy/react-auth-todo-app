@@ -50,3 +50,9 @@ While developing this project, I didn’t just build a ToDo application — I de
 - Synchronizing UI with state changes
 
 ---
+<img width="1710" height="822" alt="Ekran Resmi 2026-02-17 17 28 02" src="https://github.com/user-attachments/assets/904ca33a-7c93-4f3f-ba06-a9e5620c1c5b" />
+
+<img width="1710" height="822" alt="Ekran Resmi 2026-02-17 17 28 33" src="https://github.com/user-attachments/assets/bfdf8c2b-8f6a-4aaa-8958-5a744cda9c57" />
+
+<img width="1710" height="822" alt="Ekran Resmi 2026-02-17 17 28 39" src="https://github.com/user-attachments/assets/7d44f97b-b448-462d-abbf-3e8e2189b430" />
+
