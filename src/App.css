@@ -1,4 +1,4 @@
-/* SAYFA ARKA PLAN */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* -------------------------
-      LOGIN SAYFASI
-------------------------- */
+
 .login-container {
   background-color: #f5f7fa;
   display: flex;

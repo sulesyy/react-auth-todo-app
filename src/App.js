@@ -13,13 +13,13 @@ function App() {
   const [newTask, setNewTask] = useState("");
   const [editingTask, setEditingTask] = useState(null);
 
-  // Kullanıcıya özel localStorage yükleme
+  
   useEffect(() => {
     const saved = localStorage.getItem(`tasks_${activeUser}`);
     if (saved) setTasks(JSON.parse(saved));
   }, [activeUser]);
 
-  // Değişiklikleri kaydet
+  
   useEffect(() => {
     localStorage.setItem(`tasks_${activeUser}`, JSON.stringify(tasks));
   }, [tasks, activeUser]);
